@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.planbg.curso2_miprimeraapp.MainActivity"
+    android:background="@drawable/marciani">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/var_bienvenido"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/var_sizetitle2"
+        android:id="@+id/textView"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:textColorHighlight="@color/abc_primary_text_disable_only_material_dark"
+        android:layout_marginTop="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/var_boton"
+        android:id="@+id/button"
+        android:textAlignment="inherit"
+        android:background="@drawable/boton_borde"
+        android:singleLine="false"
+        android:foregroundTint="@color/abc_primary_text_material_light"
+        android:elegantTextHeight="false"
+        android:contextClickable="false"
+        android:clickable="false"
+        android:textColor="@color/abc_background_cache_hint_selector_material_light"
+        android:enabled="false"
+        android:nestedScrollingEnabled="false"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
+
+
+
